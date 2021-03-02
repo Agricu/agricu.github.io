@@ -1,0 +1,7 @@
+Origin: Agricu's Cydia Repo
+Label: Agricu's Cydia Repo
+Suite: stable
+Version: 5251
+Codename: Agricu
+Architecture: iphoneos-arm
+Components: main

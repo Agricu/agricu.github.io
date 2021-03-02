@@ -1,0 +1,879 @@
+Package: cn.agricu.3dnetworkfixer
+Architecture: iphoneos-arm
+Version: 1.1-6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 592
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debfiles/cn.agricu.3dnetworkfixer_1.1-6_iphoneos-arm.deb
+Size: 196718
+MD5sum: 8539535123a57c72b7c10ccdf5547b76
+SHA1: 7e272f8fa21639fcbcd97aee23a7841b84941c54
+SHA256: 599b91eac6787c4d94e48d2d52503e5e828b77d4d27cd193a76eb17280263678
+SHA512: 4a05440715a265c8e5de2936dbf1511e94f341d6527e5dbbe7af6dedb1c7096f85ea8c6fa97300bef3542af53bfc000a53bcd2425c09a99aca782e4b832aa694
+Description: 长按桌面图标唤出应用菜单，快捷修复该应用的联网权限，支持iOS10-iOS14
+Depiction: http://repo.agricu.cn/packageInfo/3dnetworkfixer.html
+Name: 3DNetworkFixer
+Author: Netskao
+
+Package: cn.agricu.GestureX
+Architecture: iphoneos-arm
+Version: 1.0.4
+Priority: optional
+Section: System
+Maintainer: agricu
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debfiles/cn.agricu.GestureX_1.0.4_iphoneos-arm.deb
+Size: 81048
+MD5sum: 49ed3672a2317b75d7c434db59309ef9
+SHA1: 89005bf8b6c1943f8e61fe7a501780e214722af5
+SHA256: bf2617b8d3099a77151ecb9623ec53e42aad86607fe02a5bb232466736000fd1
+SHA512: 4768c0dddcf524c9beb8bac1274bbfcdfb559e8a4ed76fffd5ab62e35320d77cfb4da8354954d614369839f80152a9a56d2b43467dd1130a1496338a5a26d10f
+Description: 建议安装系统:iOS12-13.3.1
+Depiction: http://repo.agricu.cn/packageInfo/GestureX.html
+Name: GestureX
+Author: zlxdike
+
+Package: cn.agricu.adassistant
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 992
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debfiles/cn.agricu.adassistant_1.2_iphoneos-arm.deb
+Size: 202490
+MD5sum: 2a90123adb3f484617c6ed5c3d7f3c58
+SHA1: 9df4d6bef5fa75108614ecc0a3a0e81eb2862b65
+SHA256: 059d470707fe2c2edad60d6fd5288557215d66f20de220b627723e991e003078
+SHA512: dd72ec16f50cf2dd76f5c32bb68868fa59f65af8b2fbc4851e9b9b8686201b227c5d04cabeba93e18ff23bd2734523e7f04feb945616a864c0c8d8d460978c0b
+Description: 去除广告
+Name: 广告™助手
+Depiction: http://repo.agricu.cn/packageInfo/Adassistant.html
+Author: Agricu
+
+Package: cn.agricu.afc2d-arm64
+Architecture: iphoneos-arm
+Version: 1.1
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 672
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debfiles/cn.agricu.afc2d-arm64_1.1_iphoneos-arm.deb
+Size: 27306
+MD5sum: e52cb7dde4beec4321af0f80bd76c813
+SHA1: 5a9a5bcc8f784ddd50e471dca1fd4741aa6ea828
+SHA256: b1ecb72323cf59fdce5bcf49644673dc7fe81b8c72ee113432a46ea74bf6ed9b
+SHA512: 2a92ff67d736751446516cbcba1fd250399a0d52aeaf5ada04587a4d1dea06b9b2538a2fe29d2958b861f622892f9147f18350b7d28d53c9f8ca1664ea77ecc2
+Description: 建议安装系统:iOS5-13.3.1
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
+Author: saurik, Cannathea <csupport@cannathea.com>
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Depiction: http://repo.agricu.cn/packageInfo/afc2d-arm64.html
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: cannathea
+
+Package: cn.agricu.appstoreplusplus
+Architecture: iphoneos-arm
+Version: 0.9.10
+Priority: optional
+Section: Tweaks
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Replaces:
+Filename: ./debfiles/cn.agricu.appstoreplusplus_0.9.10_iphoneos-arm.deb
+Size: 605962
+MD5sum: 911133379858ca7f4a0f8cdd4dbaaa70
+SHA1: 0f16610e0a3857f560b9a402704c121b14c2f0b5
+SHA256: 42aac939c14cbf779cd697d8316d8f42ec84b77b32bf17532e15f4526a1a8a5c
+SHA512: 191bd6c8a221620f263da330040851ff4e32730715d78ab703a129b4758d6598f215b4d6e2adef76d1767a23b8d8fa0fd57a9728852d7b074b51d2e5329fc4a6
+Description: 建议安装系统:iOS11-13.3.1
+Name: AppStore++
+Author: CokePokes
+Depiction: http://repo.agricu.cn/packageInfo/appstoreplusplus.html
+Icon:
+
+Package: cn.agricu.appsyncunified
+Architecture: iphoneos-arm
+Version: 90.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Provides: appsync
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Filename: ./debfiles/cn.agricu.appsyncunified_90.0_iphoneos-arm.deb
+Size: 88512
+MD5sum: c44e0c998f7f50b36badb954913d99f6
+SHA1: 9a01054e0c178fd3fd2470545d79127036aad6db
+SHA256: d6e01e8f81a230385f914dd551f32506bf091700841de88f466d10230256b43a
+SHA512: f52b750bda0dbf7ffdb065e9c2764980f108b0c4e6fd70cd34f6568c965ff58afa123e3c6d77b77e60758ed04282124c231cee82fc5f573987ce7f98d91d7b70
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: http://repo.agricu.cn/packageInfo/appsyncunified.html
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+
+Package: cn.agricu.awemedownvideo
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 308
+Depends: mobilesubstrate, cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.awemedownvideo_2.0_iphoneos-arm.deb
+Size: 80480
+MD5sum: a6ba30fffe9945edee96ea24337ac097
+SHA1: 8b3af08ec1f8172b2ec463ec6bb03db8cd0a68d6
+SHA256: 2fc4aa7db85978958d1ba7471a475b8be82e2b2ba57a753b42d404e59441f232
+SHA512: d7b232d43381373a441000938a284e7b96614a1374a407b858695a1f50fe558c0dfaee7e66a6f2ca2bdf71642ff235c4e2994a77878b87b178247beedf254934
+Description: 1、抖音视频去启动广告、视频流广告、开启自动播放功能、保存无版权视频等。
+Name: 抖音视频下载™助手
+Depiction: http://repo.agricu.cn/packageInfo/tiktok.html
+Author: Agricu
+
+Package: cn.agricu.classdump
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1828
+Filename: ./debfiles/cn.agricu.classdump_1.0-1_iphoneos-arm.deb
+Size: 835248
+MD5sum: 6759f593deda2c3e7c4d43c8f3e69aa4
+SHA1: 761918ce983408516a0c8ffb00c289d4128b6f14
+SHA256: 3d4f0e6f9de4d3ff1293f201eb322614a6a8671849dd2c131868d27aba4576b3
+SHA512: d5be1b3c1e07bc3df531d3288158d7b939a6c22f7c04cddde3c9fff166f8c2285cbb8c9420609a8ef792bfe4300d8cb6793b8c802692ae7fb1a7f9c72ac71d8f
+Homepage: https://github.com/nygard/class-dump
+Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. Support iOS
+Name: class-dump
+Author: Steve Nygard
+Depiction: http://repo.agricu.cn/packageInfo/classdump.html
+
+Package: cn.agricu.crackerxi
+Architecture: iphoneos-arm
+Version: 1.1.16
+Section: Tweaks
+Maintainer: agricu
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Filename: ./debfiles/cn.agricu.crackerxi_1.1.16_iphoneos-arm.deb
+Size: 9961048
+MD5sum: 88c8c696affe5d17c71ecafbaf2d681d
+SHA1: d3b0882bb9723d2814ba1d836d173f9859bf8fa4
+SHA256: 6df35e15ce64a47997f1c5136b07dc34b6f9b00234c1222b27eaaffce2cfc475
+SHA512: f1ed58028544c4757c2c7f01bb6e5a38e35d70a1e13af9a7f33f2322dc299f937bc063b946cace72688ea3e0f46c9e3898bfa1e8eb25c4b27273dfad203f8ba3
+Description: 建议安装系统:iOS11-13.3.1
+Name: CrackerXI+砸壳
+Author: c0pyn1nja
+Depiction: http://repo.agricu.cn/packageInfo/crackerxi.html
+
+Package: cn.agricu.cydia
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 200
+Depends: mobilesubstrate,firmware (>= 7.0)
+Filename: ./debfiles/cn.agricu.cydia_1.2_iphoneos-arm.deb
+Size: 12980
+MD5sum: 7d5c82a7e902cd0d20fbf92a98a385d9
+SHA1: c14b43c4702ae2c5f51beaeb99a86e11b7050a2b
+SHA256: a9de13e5c68602c2375e70d6827cefdc5924074bcb0ee59b14eed80fbbef3f6a
+SHA512: 80c8ef3b596f99959f6a22995f84c41164c7d8e590004f3b23664253595f3ee30610dcdf6babdb5ce4d8a1b1a81738a105bcf26fcde46fffc4353f8c8f2a60e2
+Description: 开启Cydia后台刷新及插件安装完成后关闭按钮
+Name: Cydia™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/cydiaAssistant.html
+
+Package: cn.agricu.cydown
+Architecture: iphoneos-arm
+Version: 7.1.1
+Section: Tweaks
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debfiles/cn.agricu.cydown_7.1.1_iphoneos-arm.deb
+Size: 4259332
+MD5sum: 3343be64e05723560a51c0d13d494ee2
+SHA1: 90f0afabb866c28e7b2ea9fb480dd2c1772d274b
+SHA256: cc4318db5da61886b87d708fd96ee8b4044991e047bd29f29e92786bb0ddbf9e
+SHA512: 0509ca2a650544e4799e469d4d0f92211f3190286900d3f3fc13df75b564560ee5ad9a617fa1770d199cccfa9aa73aea6d866b89a835ba6700faa00ad9d0b2e1
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Depiction: http://repo.agricu.cn/packageInfo/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: cn.agricu.discover
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.discover_1.1_iphoneos-arm.deb
+Size: 49586
+MD5sum: 4599b68db03e4aa4b182ebf65a99c0c0
+SHA1: c7e2647e400794775282aee2572e698d69acb267
+SHA256: 3ef42aa2edcb7ee6936806e81b26b0f1b1bd0979fe8afa9d948b928c81c69c4d
+SHA512: 3a3c254c1970e46dba12703d6ceada97384873b13d0e27c6019e4de5efa60b5cb67d39ca752cc13a32e6bfeaceb80734f8169cb7c7f168bea5b7570074836a8a
+Description: 视频界面长按弹出窗口，开启小红书无水印保存视频、图片
+Name: 小红书™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/discover.html
+
+Package: cn.agricu.downloadvideo
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/cn.agricu.downloadvideo_1.0_iphoneos-arm.deb
+Size: 28980
+MD5sum: ca4202435b08218cd6aab943d5d68162
+SHA1: e070213826d438dfad7518d42d3ba51aa9f8b0c7
+SHA256: 8a386313c8cfd0c026d05095ca46f8fe95360423142254345f79ac11a69210a8
+SHA512: f3e416f6d47f355c7db37e9fd0829c7469c38e55510fd09cb1ed478d9e7fe53f20cdacd836d6c8277a8c266f3d2a846ca4429ebad0d265d91f98840dfb7554d6
+Description: 视频下载插件图标依赖
+Name: VideoDown™icon
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/downloadvideo.html
+
+Package: cn.agricu.dpvideo
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.dpvideo_1.0_iphoneos-arm.deb
+Size: 69036
+MD5sum: bb7e454cdd05a2a5bd721bcec0a51cbd
+SHA1: d6c359c857acbe965d8412770181593b107197b9
+SHA256: 9c742d477b20ecdacb373c632cb17524f8e8b965cc2eafc40b07b9c236da2e81
+SHA512: 55db17326429c1be234d35f7db38f9949c9fdc49e6ddfae3c8c20acf90c8bd3a382fd506b99e12d3967a09411a7b43348b315af94fc732690776036b8fcc0d53
+Description: 大众点评视频下载
+Name: 大众点评™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/dpvideo.html
+
+Package: cn.agricu.filza
+Architecture: iphoneos-arm
+Version: 3.8.1-22
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32112
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debfiles/cn.agricu.filza_3.8.1-22_iphoneos-arm.deb
+Size: 12944408
+MD5sum: ac56812f7bb3afc0a2bcae437d9f003e
+SHA1: c6f5a7d1d84a8d6a65d293f8f88108ad7258c735
+SHA256: ac34e41482ce53c6b029747abfb062707cd66ac1111330d3c48ced2aa8e73a55
+SHA512: 05b8a514ef582c1758c7cae5bf780de977907aa56b2c69033cef15525b2382abbbdfc585ed2047cfb766d8d02c86b8f3a83d772a023810babfc5e44757b066a2
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Name: Filza File Manager
+Author: TIGI Software
+Depiction: http://repo.agricu.cn/packageInfo/filza64bit.html
+
+Package: cn.agricu.filzacrack
+Architecture: iphoneos-arm
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debfiles/cn.agricu.filzacrack_1.1-4_iphoneos-arm.deb
+Size: 16676
+MD5sum: 6443562dfb06455d496caa23997afe38
+SHA1: 7d6a714aec45f84f7a3ba7219ec06dc6352c8bfd
+SHA256: 193a3b70a7ac958946b9f0e46e94b4ac7026a8fcb62fb987376cd79004b52068
+SHA512: 91b874d2b932417da8c3dab215bc155672a528e19775ff558d9650e7f32195cdbfa9c18d290ba3eb49bb5b381edefabdab359b452e0776abe1db810b019d5685
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza破解全功能插件，主程序官方源安装，支持所有机型，如提示需要激活请激活即可，国行激活失败请自行修复联网，点击“更多信息”跳转官方源https://tigisoftware.com/cydia/
+Name: Filza Crack
+Author: Netskao
+Depiction: http://repo.agricu.cn/packageInfo/filzacrack.html
+
+Package: cn.agricu.flexlist
+Architecture: iphoneos-arm
+Version: 1.3-1
+Section: Utilities
+Maintainer: Nets
+Installed-Size: 4440
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debfiles/cn.agricu.flexlist_1.3-1_iphoneos-arm.deb
+Size: 1873598
+MD5sum: 7a6201d735891e586f37c27636207d49
+SHA1: 77c3f5d18beb69968569e3770d239237d4acf86c
+SHA256: 76fa252b59596f62e7e05cd9081473ac474fa52b0ccad7ec90fb30a1b6c1a3bd
+SHA512: ae9a09ad68d6f34141f790ed0a2953fe6fe438190ff8c2605157aa8f40ec30138f2a2471e378df147063b7615ec8b81acc84efd580bead663880c3bc09fda606
+Description: FlexList是调用FLEX进行应用分析的工具，支持状态栏快捷唤出，3D桌面图标快捷启用/禁用，设置列表启用/禁用
+Name: FlexList
+Depiction: http://repo.agricu.cn/packageInfo/flexlist.html
+Author: Netskao
+
+Package: cn.agricu.fqys
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 200
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debfiles/cn.agricu.fqys_1.0_iphoneos-arm.deb
+Size: 12898
+MD5sum: 72f2d50f1bdd4beb2c6cf10e4e8cef4e
+SHA1: b74ab264799aa4588e70b4d4f147b8e95f14cff5
+SHA256: 5ab485046748ad2907d450df3f8896941ef69f1bc57eb453e417a67b93980f53
+SHA512: 1f7daa4e790d89685a755b1350e2a3c705166d56efe616c336793f513dfb41a306d7f0bbb846c38468cf873d47ddba4f48300a21c4ba82eca6ba20e2a13a5e76
+Description: FQ二维码(番茄影视)伪装上架版去广告
+Name: 番茄影视™助手
+Depiction: http://repo.agricu.cn/packageInfo/FQys.html
+Author: Agricu
+
+Package: cn.agricu.kbappdock
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 1276
+Depends: mobilesubstrate
+Filename: ./debfiles/cn.agricu.kbappdock_1.0.1_iphoneos-arm.deb
+Size: 730672
+MD5sum: 95159f5485ccb844bee1fa2a92c72088
+SHA1: add2c3ab8d1d7df62f3dc80ecee6b063ff0e4bc9
+SHA256: 1af6f3ca886f0b132584c24ba3af03ad85269f70ff1071981dda8cc8d9779dbe
+SHA512: 83d09caccf4b9be82c6878751bfff167f7c74c1a1442bca8ef8ddbb3df836de1b9b96f710c2ede1c11da5ab4aaa723a3b1f3fe0c21fe369d07c192f4c88a1c41
+Description: 键盘底部优化
+Tag: compatible_min::ios13.0, compatible_max::ios14.3
+Name: KBAppDock
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Icon: file:///Library/PreferenceBundles/KBAppDock.bundle/icon@2x.png
+Depiction: http://repo.agricu.cn/packageInfo/kbappdock.html
+
+Package: cn.agricu.kwmusic
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.kwmusic_1.0_iphoneos-arm.deb
+Size: 70460
+MD5sum: 18c61e9d6b2f8a3e8d27952b19329f70
+SHA1: f204ce99746289c2eb451db2d2452d6c02a388ba
+SHA256: 9e0c18f77be96944924f5162b49faebf75fbb4472243d54a61cae02fc1d2c120
+SHA512: 53504cfcf0feca86056f5bac9efc9b530efc8b705d5336a389be59f5df9a5dcdbfa115b8617b3c488e5aa3f5b3fd155bc1b2b42acc822b20d4309396a1f71509
+Description: 酷我音乐VIP歌曲在线完整听以及短视频下载至系统相册
+Name: 酷我音乐™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/kwmusic.html
+
+Package: cn.agricu.locationhelper
+Architecture: iphoneos-arm
+Version: 5.3.10
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: ./debfiles/cn.agricu.locationhelper_5.3.10_iphoneos-arm.deb
+Size: 4489856
+MD5sum: cd4328566d5c7baef4218cd6bb64ccce
+SHA1: b9f31979f0be45d17b6e2308d4daddd0c36d6605
+SHA256: 10e60f82569c33da53bdf99121a79ca21baf80d147951126e4872a959e68d89e
+SHA512: 572125d3e5d4f5308ca77c5c914cf8e5a3ad98afda2800c6c710cc444227a751588056c6ba8a2612327aebfcc5c30c567111106c96515663e1b692d33abb7db5
+Description: 建议安装系统:iOS6-13.3.1
+Name: 虚拟定位助手破解版
+Depiction: http://repo.agricu.cn/packageInfo/locationhelper.html
+Author: mingfaker & 7Loopy
+
+Package: cn.agricu.mobileslideshow
+Architecture: iphoneos-arm
+Version: 2.2
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 200
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debfiles/cn.agricu.mobileslideshow_2.2_iphoneos-arm.deb
+Size: 7746
+MD5sum: 64e24c9143e022ec96a74f0d349545fd
+SHA1: 2f447832b2fac15477965fe0c7c90dd520ac1128
+SHA256: be43286014760f228c04e369865a7d072291459fd3f6973e6be69ba274c4b81c
+SHA512: dad73a742f5b27de3c7219657923ce45cc1a6e0a77a40c37ac9b2bb70b2a13e9a8f7ebad7ccbaffda43ac6d7aa5816b4f215f5b8b30aee7b963c9a2b5ebd06aa
+Description: Delete photos without confirmation and unlimited zooming in, Show resolution and file size at the top of the photo，Support for arm64e devices。
+Name: 照片™助手/Photo Assistant
+Depiction: https://repo.agricu.cn/packageInfo/mobileslideshow.html
+Author: Agricu
+
+Package: cn.agricu.newterm2
+Architecture: iphoneos-arm
+Version: 2.4
+Section: Tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6792
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debfiles/cn.agricu.newterm2_2.4_iphoneos-arm.deb
+Size: 3201762
+MD5sum: 22546b5d8fd695c00f26c5fb9ed7f2e3
+SHA1: 4cb6bbfef17a6568f5c72b9db5e7be7e4407987d
+SHA256: 0de9337fe8e0a294ab515c7496cc3fa905e0032f026e642c92b8a1d325477205
+SHA512: 407067759265f201d2f9576fc3fa1853d78cb52125790fefa6839f8b86c6636a4d83c54cf1637ad8cf543f8b17ec20623e28a7cde2f9a225bce766e2fc4f0b75
+Description: 建议安装系统:iOS8-12.4.1
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Depiction: http://repo.agricu.cn/packageInfo/newterm2.html
+Name: NewTerm (iOS 10 – 13)
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+
+Package: cn.agricu.qqmusic
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.qqmusic_1.0_iphoneos-arm.deb
+Size: 70390
+MD5sum: 6b0b7764a28832ab92cfc1a4977dd54e
+SHA1: 1f4d2bf7020360ed32d3349b006eeb2e1f835119
+SHA256: 66728b56c043cdf4f1d865feb2aeba190fbba371ba85c95b19ad5ef80cb6b42a
+SHA512: 95d5febc738cdbaf7a43a59bb4b1ed25accbac662fb2f2816e26804cb0884f8cba829fe3c64fc79ace48c9965ccd7b2f395be08355a7dd216dbd18690aa727ab
+Description: 1、QQ音乐->扑嗵视频界面长按呼出下载界面；
+ 2、去除大部分广告流。
+Name: QQ音乐™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/QQMusic.html
+
+Package: cn.agricu.qqmusicdesktoplyrics
+Architecture: iphoneos-arm
+Version: 0.3.0r2
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 2456
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), preferenceloader
+Filename: ./debfiles/cn.agricu.qqmusicdesktoplyrics_0.3.0r2_iphoneos-arm.deb
+Size: 873590
+MD5sum: 6efe415c5f441dcf63aa6c646079841b
+SHA1: 1729fb036240948207d7abb545b7959913100415
+SHA256: 0c8829934ac62cdb06d537beaf463b50807a5ef0f2d6ae27b09c2a2f53d41b3d
+SHA512: da6cc5e56045bde1912fb1cdda0552d1a7ed1b864efe135a3527c5db7f2874ee40a64724e3a4de61d01b58da35482e0125f2a03e5cecd86a7ef7bd164a114f13
+Description: show lyrics anywhere
+ 国区支持企鹅、网易、酷狗家族、咪咕、酷我、虾米(含各自ipad版)。外区支持spotify。
+Name: DesktopLyrics 桌面歌词
+Depiction: http://repo.agricu.cn/packageInfo/DesktopLyrics.html
+Author: Brend0n <brendonjkding@126.com>
+
+Package: cn.agricu.qzvideodown
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 208
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.qzvideodown_1.0_iphoneos-arm.deb
+Size: 57064
+MD5sum: 4ee91d5630c34c22622327a4849cb919
+SHA1: c05f3939afe9f6d83a3df2d4a04c80d8fe7692cc
+SHA256: 3444a581b6a1d11c6c4f30e990d66cd6ad5a6803df2ed0f7f3429c60de5bb485
+SHA512: bda422d3f134e04ff7c6af5a598f9171540df2218f3bf2a455657209fc8fa2c2a8b442736a30b5f5b2a9a181cf0df1be231c7860db09b2e653caec8e279f5fa2
+Description: QQ看点视频下载
+Name: QQ™视频助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/QZVideoDown.html
+
+Package: cn.agricu.realcc
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 102
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/cn.agricu.realcc_1.0.2_iphoneos-arm.deb
+Size: 6624
+MD5sum: a99b51bcb6b0287c1732189ce6a1b0f6
+SHA1: 4af0445aac09c6c927b272e1bc8e849c4fc17b3b
+SHA256: c174c35427fcf573a6e65962a84931bb50e2c8af2d0c8869ae1a6c056cb49a0d
+SHA512: 645824e2381fbf672de777717e3f8aa5bb981e1cb8ce030114097db7f1f22daca3f66b3c39b966aacdda2dce205c1cc24c784e254668d01ae1db51680860e6cd
+Description: 建议安装系统:iOS11-13.3.1
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Name: RealCC真实控制中心
+Depiction: http://repo.agricu.cn/packageInfo/realcc.html
+Author: Jake James <jakeashacks@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cn.agricu.shadow
+Architecture: iphoneos-arm
+Version: 2.0.20
+Section: Tweaks
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Filename: ./debfiles/cn.agricu.shadow_2.0.20_iphoneos-arm.deb
+Size: 255026
+MD5sum: 09e343d7759a30dccf3e01ffa1bcd49e
+SHA1: 509dbf30bbbbad79a85fbbd8f3f4b57fb0e946e5
+SHA256: d3f664779f3955e06dd022b86ba75d9cff2ad56bcfb1c414eeda949576369759
+SHA512: 6337242b14eb919d2af921dcd4ea0f57e5cd7e7f74ecb60f39ffdc87f7f994cf886bb27038f7b616acb7812d5052d2c36d5670c5053fe8fa6d07a92bc45e36a0
+Description: 建议安装系统:iOS8-13.3.1
+Name: Shadow越狱屏蔽(汉化)
+Depiction: http://repo.agricu.cn/packageInfo/shadow.html
+Author: jjolano <jjolano@me.com>
+
+Package: cn.agricu.shutup
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Soh Satoh
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debfiles/cn.agricu.shutup_1.0.1_iphoneos-arm.deb
+Size: 3708
+MD5sum: 2cb9f2b3f55f1b291a2c07dc48122b70
+SHA1: 80e5bf12c1b2239667294823f1bad1af22594413
+SHA256: 6fb9fefe9d800de031eec36002d09a686f5d7435717cf9a0b565deca0ebeb69b
+SHA512: 0adfcc6190a18ba2a6e5d6944001c44d725f84af79eb09d060e1939db8a867bd3871e070bec2d8e08798ab86b78e53f5f1e61d2d51ae92d3ddb4218e517af14a
+Description: 建议安装系统:iOS11-13.3.1
+Depiction: http://repo.agricu.cn/packageInfo/shutup.html
+Name: ShutUp移除键盘听写键
+Author: Soh Satoh
+Icon: file:///Applications/Cydia.app/Sections/Keyboards.png
+Icon2: 14.png
+
+Package: cn.agricu.spotlightless11
+Architecture: iphoneos-arm
+Version: 1.1.3
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 706
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debfiles/cn.agricu.spotlightless11_1.1.3_iphoneos-arm.deb
+Size: 108560
+MD5sum: bc2938bc7515a7f9335abdd8c48d11b6
+SHA1: ea7056a4e6a91e48612bb0bef3a593a9506f832c
+SHA256: c6ca49d34cbf50b5b89337e5be5025d3b15161afcc3f9a0ca572e9a110612086
+SHA512: bf245e1182861f349be0726c4fc49b82320e4b2c5bc223bed55bd198050d042f96896152c4d26da83faad67ce7c1d763f90cc360fb223fd0b01fff8bb6f5584f
+Description: 建议安装系统:iOS10-13.3.1
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: Spotlightless11
+Depiction: http://repo.agricu.cn/packageInfo/spotlightless11.html
+Author: CydiaGeek <lucaluca86@aol.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Icon: file:///Library/PreferenceBundles/Spotlightless11.bundle/Spotlightless11@2x.png
+
+Package: cn.agricu.taobao
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweak
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.taobao_1.0_iphoneos-arm.deb
+Size: 64856
+MD5sum: b3377aa7cb5f604f8eee52d62ef99f48
+SHA1: 132a900b91209b6f8dad19fd4f1c826e68f02da9
+SHA256: e8dccea594e7d1d036d28a9cba663c26f5eef33ed8bf1dff25936aebceab3ca0
+SHA512: a27da5c709e21c32ded37508ec1f718560cf06617cf31338694d54364b5f07070cd850a031abd37f5ed3f73933d69a5b1e69ec276603efd092aca28dca1035f8
+Description: 淘宝视频保存
+Name: 手机淘宝™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/Taobao.html
+
+Package: cn.agricu.theos
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Utilities
+Maintainer: Agricu
+Filename: ./debfiles/cn.agricu.theos_1.0.3_iphoneos-arm.deb
+Size: 768
+MD5sum: 6ccbc5eb584ef75f51bdde4ab9ad9e5f
+SHA1: 43268187bdc3e09afe5690465636cb457dad58ea
+SHA256: 07f8e99f736481b16604f80761eb8cedc3d6c2f3291afdf7e82026b4ef90d9cc
+SHA512: f9d53eb48715a09f3113f63c9a36767d1f9b3d115df947ee387c35a075c49df313ffff80846d69e8157967ad5de927c4065da870c456f1e2911ad75e19559ab1
+Description: 建议安装系统:iOS5-13.3.1
+ theos自用简洁命令文本
+Depiction: http://repo.agricu.cn/packageInfo/theos.html
+Name: theos简洁命令
+Author: Agricu
+
+Package: cn.agricu.theosdevtool
+Architecture: iphoneos-arm
+Version: 2.5
+Section: Development
+Maintainer: Agricu
+Depends: mobilesubstrate, clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Filename: ./debfiles/cn.agricu.theosdevtool_2.5_iphoneos-arm.deb
+Size: 12161152
+MD5sum: ed44ad7f6a06b36c9f6b688ed19e21d2
+SHA1: 19a7f54e3cf34be323d1a92a0ec8824a0be0791f
+SHA256: 71032de70fae1ea2d0b87aaacf04a91ce78c67ed761db8e999a45dd1157888f4
+SHA512: 62b9443667afe0d485a3126a210726e31ad1fbf04b221ee02cd4dc536893d2b398c4f154a8332992dcecb820cc623c51f1e2bfa3d0ab36d3a3aa503899b4e630
+Description: Theos Automated Compilation Development Tool，After the theos installation is complete, run "theosSdk" to install the iPhoneOS13.1.sdk
+Name: iOS TheosDevtool
+Author: Agricu
+
+Package: cn.agricu.theosinstaller
+Architecture: iphoneos-arm
+Version: 0.1.4
+Section: System
+Maintainer: Jake James + Wisy
+Depends: org.coolstar.iostoolchain, curl, git, coreutils, unzip, coreutils-bin
+Filename: ./debfiles/cn.agricu.theosinstaller_0.1.4_iphoneos-arm.deb
+Size: 6598
+MD5sum: d46a3d5b155af7094c8d956de3e6ab39
+SHA1: 5293124dfd5f11d78c92cb73b7b8182a4cf77197
+SHA256: 19822546bfe6c20265a47423634a8191a673cecd65951d19802d1fe55a647d35
+SHA512: 4135e70890f3869b28936155277c69e2453ec3592ac503d874053cfa5ccd353fe9ac5e0c72a6ec0fd4e3b8cd98a4eb0ac2dfa680f1457d917a2179a1687f9fe1
+Description: Install theos and setup everything you need with one click! Works up to iOS 13, 32bit and 64bit, Electra, unc0ver, checkra1n. Does not support compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
+Tag: role::hacker
+Name: Theos Installer
+Depiction: http://repo.agricu.cn/packageInfo/theosinstaller.html
+Author: Jake James + Wisy
+
+Package: cn.agricu.touchflow
+Architecture: iphoneos-arm
+Version: 1.0.6
+Priority: optional
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 820
+Pre-Depends: firmware (>= 11.0), mobilesubstrate | com.ex.libsubstitute
+Depends: com.creaturesurvive.libcscolorpicker
+Filename: ./debfiles/cn.agricu.touchflow_1.0.6_iphoneos-arm.deb
+Size: 211642
+MD5sum: 1f9b5502c774c2d53efcb09c3b5341cf
+SHA1: ecfb4f0107875ad4002e7ef4e19dbc1ff55ba235
+SHA256: f910150bf8bd8ce1a104720570e71458a6d67b8fd599ab2ab9e98268fc07df35
+SHA512: 43d9312e0c0df399b89104369a1103fc39f82ff80f28786562e2ab570e8d5cf4e4d61190f4a26008611f9cb53706b0ce8cc619a81322bdc60d8563b4cbb9d7dc
+Description: Show your touches on the screen
+	customizable tool to show your touches on the screen
+    allows for showing touch force on supported devices
+Tag: purpose::extension, compatible_min::iosiOS11
+Name: TouchFlow触摸轨迹
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: http://repo.agricu.cn/packageInfo/touchflow.html
+
+Package: cn.agricu.tsssaver2
+Architecture: iphoneos-arm
+Version: 1.0-beta-5.0
+Section: Utilities
+Maintainer: Agricu <643600871@qq.com>
+Pre-Depends: firmware (>= 9.0)
+Depends: mobilesubstrate, net.limneos.libbulletin
+Filename: ./debfiles/cn.agricu.tsssaver2_iphoneos-arm.deb
+Size: 371842
+MD5sum: 7a3a1980fd356ef6518c563630071402
+SHA1: ebceb2690554b861ee592eed8b37b779b78cb892
+SHA256: b223bc39a9f5d45f984f426c2ec59b898fe91307a686cd655a6869ec06f53389
+SHA512: 48a4127d8646a394ca813758c13a692222eaebeba383a64876c931d522221a6da20a67b795fc7913343147364a85ab145d403fee514827cc0f6142eb2da14329
+Description: Arm64 devices and IOS 9 and higher versions are required, and SHSH2 saving of A12 devices is not supported.
+Name: TSSSaver-多设备版
+Author: IArrays&Agricu
+Icon: file:///Applications/TSSSaver.app/AppIcon40x40@2x.png
+Depiction: http://repo.agricu.cn/packageInfo/tsssaver2.html
+
+Package: cn.agricu.twitter
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.twitter_1.0_iphoneos-arm.deb
+Size: 72506
+MD5sum: c991860e6d42ae86b6bf5a39e481ea6b
+SHA1: 858cd9ab95bb706791633f97578c2266f0bf7a05
+SHA256: 11ec720862b32ba468902c10c396c8268a82ab501e615253dae1040a207306a0
+SHA512: 4d08c3837dc5aee3414e2402ba0dfd1000473d2e9eb4eaff91ff0327bcdfb66a1ae931f69b5ad557a781d906620fd711ceaef3e72a611758352e10a15e9c38b2
+Description: Twitter视频下载保存至相册
+Name: Twitter™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/twitter.html
+
+Package: cn.agricu.unc0ver
+Architecture: iphoneos-arm
+Version: 4.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: Agricu
+Filename: ./debfiles/cn.agricu.unc0ver_4.3.1_iphoneos-arm.deb
+Size: 53910
+MD5sum: 6c54b32e68b078e06a00b29e9a7ec86a
+SHA1: 984bc3b04c5be3c8c58f317aa376ae3a0e58a97b
+SHA256: 1b58c7ed0b2c8f8e225ed2fa030b2020c027ae4c927948de227cb551a662ef43
+SHA512: b77b3e6b1da19feaba0a2b5e4994950d69e1421912530d3a2a4116232c96fbd72366e1664e4cd8d15f4e3e392813f308f9214a86afab20b14ee44bde27061ce0
+Description: 建议安装系统:iOS11-13.3
+Name: unc0ver汉化补丁
+Depiction: http://repo.agricu.cn/packageInfo/unc0ver.html
+Author: Agricu
+Sponsor: Agricu <http://agricu.cn>
+
+Package: cn.agricu.videodown
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.videodown_1.0_iphoneos-arm.deb
+Size: 170776
+MD5sum: 063a7b0af72fdc77821df931b04bd6d6
+SHA1: 2c9a6b5ebb4bbba226ced51b0b59ac9aed3d3d8c
+SHA256: d7d04c14db772c9215ab7d456b2ed0ba7bbfde327e16e684ba43b59d358b8dcc
+SHA512: 99b5cb61fa76654e50275ee470aa446268a65d04f564ec88fda37fb0ff08509ffc0a79a0476bc65875fb81664ef811a0237ffb88b8322d22dd277728b6486afa
+Description: 下载网址直链视频文件，仅支持MP4视频下载
+Name: 视频下载(自用)
+Depiction: http://repo.agricu.cn/packageInfo/videodownload.html
+Author: Agricu
+
+Package: cn.agricu.vipcrack
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 604
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debfiles/cn.agricu.vipcrack_1.2_iphoneos-arm.deb
+Size: 102146
+MD5sum: 83f851c2c30d56e95a76e1541477c8f4
+SHA1: bc129bfe73c0f02cee931254b28b8468b28e95c4
+SHA256: b6fd3ed21d4c34b5040abf6ec1fef2f6f85a29772a0c2f2d02ec611a32b6667f
+SHA512: 23fa0094ff6398b75d5b077327616ec96637cf4b862f2853458ea1da2bcad3ca1ece3122b29da74d3787fb7411f4cefcd9d5fbed4ccfae2689dc355aec3ad5d4
+Description: VIP权限助手
+Name: VIP™助手
+Depiction: http://repo.agricu.cn/packageInfo/VIPcrack.html
+Author: Agricu
+
+Package: cn.agricu.virtualstep
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: agricu
+Installed-Size: 320
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/cn.agricu.virtualstep_1.0.0_iphoneos-arm.deb
+Size: 18946
+MD5sum: 0d8fcd8e80f44ae9d2246859b2a00a8d
+SHA1: 36de12e65f032cbbd4de0cf91c359699a250ad6e
+SHA256: b42b2ece9ef5232e2585677b5b98561b17254c2be4dd1ca6f17490fda0888417
+SHA512: e225f056f2b9bd53270d888e22d2acca597990a9604ae28bb71e3a4c9352a847b8286512c16581eb1919894c8826298a87fb56343a76d0577f76e35cc8b33e86
+Description: 建议安装系统:iOS8-13.3.1
+Depiction: http://repo.agricu.cn/packageInfo/virtualstep.html
+Name: VirtualStep 健康步数
+Author: kinken
+
+Package: cn.agricu.vsz.redeb
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: extra
+Section: Utilities
+Maintainer: T.Herak
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
+Filename: ./debfiles/cn.agricu.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3576
+MD5sum: 31b78d8b7db0a2017898f5e94aff9586
+SHA1: f2036db99df4a79799992828e72b83cb78034c37
+SHA256: eb98836fe37b29704a8d46cf3c7d01e1b67221cbef61d2637dee560cdd4bca9a
+SHA512: 8454209e1b41ccfd814f4fb25918cfdfd5f410353ffee8de27b08e74a87dda8a93598fcd0a14f1ea4239468f73391d965b853f3d177c0560239a5d5889143658
+Description: 建议安装系统:iOS5-13.3.1
+Depiction: http://repo.agricu.cn/packageInfo/redeb.html
+Name: Redeb 提取本地插件
+Author: T.Herak
+
+Package: cn.agricu.webrefresher
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Agricu
+Depends: firmware (>= 9.0)
+Filename: ./debfiles/cn.agricu.webrefresher_1.0.1_iphoneos-arm.deb
+Size: 2490006
+MD5sum: f06c9baefffef110dfcbb355316c8fdc
+SHA1: 5ee30454526d3f657deb5439925d791e88867b1d
+SHA256: 596609ece6bb46ad3d1e5a4bf58937e61166353c993fc9aa2f7a656d62632976
+SHA512: 619d95e553f46ed3fe5ef1c7272111f9999756e3465c93addd57cb0cd455ffd9a8d297a2c6add9d6bbb1e45303c0426e3d57fa2b0a70f846b5761ade847df304
+Description: 建议安装系统:iOS9-13.3
+Name: 网页刷新器
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/WebRefresher.html
+
+Package: cn.agricu.wechatvideo
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.wechatvideo_1.1_iphoneos-arm.deb
+Size: 73998
+MD5sum: beed33259dae35bcce9b6b18dd71ec2c
+SHA1: 141aad41861b2c352c073c52a6e5036265c743d9
+SHA256: c05fb9c88422c713fa9f6caa79ce235e97548135815c5336df29896905314c8b
+SHA512: bcb9ccd1f7f67264c7bcd1246d87d60dafe77c048284d2f858e326786c759893abc41c1d0091f31e4cbc95cea0bf91e07d886375c82ab0bc80ccc2ed561e894b
+Description: 微信小程序视频下载保存至相册
+Name: WeChat™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/WeChatVideo.html
+
+Package: cn.agricu.wifiallinonekey
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.wifiallinonekey_1.0_iphoneos-arm.deb
+Size: 72620
+MD5sum: a1b560dbbd0687063560464e1a5a723a
+SHA1: c3d152c76a173f847a9c6f453ef947f1f33f4ace
+SHA256: 42a2db55221476b2f704f78540672ab08fd7b86e5b6f98ddbab93031fc24f3bd
+SHA512: 461a0c89b723c271eb42ceab35e228e44545a1bcf68b8f1d64189c69a68b851b2ef07de3320056ee51acd1b3c27f96438a3ff2cd0d80d55b117c5b907fb5e749
+Description: 视频界面长按呼出下载界面
+Name: WiFi万能钥匙™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/wifiallinonekey.html
+
+Package: cn.agricu.wifipasswords
+Architecture: iphoneos-arm
+Version: 3.0.1
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4112
+Depends: firmware (>= 6.0)
+Filename: ./debfiles/cn.agricu.wifipasswords_3.0.1_iphoneos-arm.deb
+Size: 1271954
+MD5sum: 105a65ffb6ce31e1f43c0e90038f9a16
+SHA1: 315b4e111e5cf0ea3f2d6358e891394a4cd32b1c
+SHA256: ec34a932443fce22c46dfc6860e271bdc48476a49d7737a8850f5662f95c8b78
+SHA512: bdc49874b2f7dc779d2a764489bf3ad55af8053c13665b426f60e704fe4a7237eeacdbac97d7ebd4f4a05e2e932f0cd58715d3d6520cb5e83d0b499e5c61d425
+Description: 建议安装系统:iOS6-13.3.1
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Name: WiFiPasswords密码查看
+Depiction: http://repo.agricu.cn/packageInfo/wifipasswords.html
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Icon: file:///Applications/WiFiPasswords.app/Icon.png
+dev: malcolmhall
+
+Package: cn.agricu.youguo
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.youguo_1.0_iphoneos-arm.deb
+Size: 69312
+MD5sum: c598410d024457ec426f54a2b297ef57
+SHA1: 49647282209c4c01af39f69fbaf99d6075371c45
+SHA256: 360d8978ed62d912c7acefb4efda8e65c7f93d8af9b8a0a1d6ea189ed42219e9
+SHA512: 0be4ad5ff16ca5e9fcf4a7adaf455410ab2dbb117a9e165e913d2e0123b9d8b27815ddee901320869f771c55dce44446009f2614bb9cbdf218194bf11ecdfaea
+Description: 视频界面长按呼出下载界面
+Name: 油果™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/YGVideoDown.html
+
