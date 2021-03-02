@@ -209,6 +209,24 @@ Author: julioverne <julioverne@me.com>
 Depiction: http://repo.agricu.cn/packageInfo/cydown.html
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
+Package: cn.agricu.disablepastetips
+Architecture: iphoneos-arm
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 136
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debfiles/cn.agricu.disablepastetips_1.1-2_iphoneos-arm.deb
+Size: 5548
+MD5sum: e4620f36d5c2195bc47f4d608e096113
+SHA1: 40cd9560a5d5874fc3b9e89b006c9087309b40cf
+SHA256: 9f06c04e6177ecbde17e60e74cc7c394fbac80d2523d26fa690eae89124c34be
+SHA512: 7d9a6c0b1feec4150a9fe6d8e7ae795b747d0f04816ad925f47e7f7e07f8138eb4b9b50498a76a8f5edb6759ba5084cf2bb72bfa90788aafeaec6447efa4c532
+Description: 禁用iOS14的粘贴提示
+Name: DisablePasteTips
+Author: Netskao
+Depiction: http://repo.agricu.cn/packageInfo/disablepastetips.html
+
 Package: cn.agricu.discover
 Architecture: iphoneos-arm
 Version: 1.1
