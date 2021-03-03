@@ -662,14 +662,15 @@ Section: Development
 Maintainer: Agricu
 Depends: mobilesubstrate, clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
 Filename: ./debfiles/cn.agricu.theosdevtool_2.5_iphoneos-arm.deb
-Size: 12161152
-MD5sum: ed44ad7f6a06b36c9f6b688ed19e21d2
-SHA1: 19a7f54e3cf34be323d1a92a0ec8824a0be0791f
-SHA256: 71032de70fae1ea2d0b87aaacf04a91ce78c67ed761db8e999a45dd1157888f4
-SHA512: 62b9443667afe0d485a3126a210726e31ad1fbf04b221ee02cd4dc536893d2b398c4f154a8332992dcecb820cc623c51f1e2bfa3d0ab36d3a3aa503899b4e630
-Description: Theos Automated Compilation Development Tool，After the theos installation is complete, run "theosSdk" to install the iPhoneOS13.1.sdk
+Size: 12166884
+MD5sum: a0b89a2dc2609d28bcebe1962c009ee3
+SHA1: d066a71f2007ad76fd4de5bfeaa99795fa7010fa
+SHA256: cc8baf30b9048e519d0b723390e5550b47a0832388a205d61cdf1cd7dc46b4f1
+SHA512: f98594b14adbd23dc90b06031110bad4fe1c092ecbdf8be593b2c16302945f21d0619944c30c68181cbc44ea278e56a7670f7986c5b5072a6c072afd6a009044
+Description: 自用iOS插件开发工具，不懂勿装
 Name: iOS TheosDevtool
 Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/theosdevtool.html
 
 Package: cn.agricu.theosinstaller
 Architecture: iphoneos-arm
