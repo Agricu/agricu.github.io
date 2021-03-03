@@ -77,6 +77,23 @@ Depiction: http://repo.agricu.cn/packageInfo/afc2d-arm64.html
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
 
+Package: cn.agricu.altstore
+Architecture: iphoneos-arm
+Version: 1.4.4b
+Section: Tweaks
+Maintainer: Nets
+Depends: com.rileytestut.altdaemon
+Filename: ./debfiles/cn.agricu.altstore_1.4.4b_iphoneos-arm.deb
+Size: 4421122
+MD5sum: 13883bd0f2f12116e613133bc25d3019
+SHA1: de15b269719b82cdb55c9335fcf5b2657a47900a
+SHA256: 8f4d5587f00a2fc4861f0b0bab1b0da4f48c7eecbbcb155ea3dfc3a3334fedf6
+SHA512: d8ccc8f0a207202b68109ac810bc8fbba23164934cc44bd3da54b84cda19fc9ae3ca10ca0e5905330eb3be9e427ed442248f5da1cef2945c9772f99118699b59
+Description: 如何无需连接一次电脑即可正常使用AltStore
+Name: AltStore签名工具
+Author: Riley Testut
+Depiction: http://repo.agricu.cn/packageInfo/altstore.html
+
 Package: cn.agricu.appstoreplusplus
 Architecture: iphoneos-arm
 Version: 0.9.10
@@ -155,6 +172,24 @@ Description: class-dump is a command-line utility for examining the Objective-C 
 Name: class-dump
 Author: Steve Nygard
 Depiction: http://repo.agricu.cn/packageInfo/classdump.html
+
+Package: cn.agricu.closelibrary
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 104
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debfiles/cn.agricu.closelibrary_1.1_iphoneos-arm.deb
+Size: 2988
+MD5sum: f85a89cd01de9e711935a3faa00f9d44
+SHA1: 63617cffe52b2327b4e2b5ba0a1239c728f48c81
+SHA256: c1eb5c042f56a463c2d42ef149bd374174562b56edfbb0494670e4ec841c8b74
+SHA512: 255c9beea57c1ce1152eb63d97ca516dfc23cc9c21c0b040feecb3098963abc1fc42abd4dfe83a551e9ab5424102acb628bc4c0f554017e5a44c80293a234ac5
+Description: 关闭iOS14及更高版本的APP资源库菜单页面
+Name: CloseAPPLibrary/禁用APP资源库
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/closelibrary.html
 
 Package: cn.agricu.crackerxi
 Architecture: iphoneos-arm
@@ -894,4 +929,21 @@ Description: 视频界面长按呼出下载界面
 Name: 油果™助手
 Author: Agricu
 Depiction: http://repo.agricu.cn/packageInfo/YGVideoDown.html
+
+Package: com.rileytestut.altdaemon
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: Riley Testut
+Depends:
+Filename: ./debfiles/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
+Size: 597622
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
+SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
+SHA512: 50b7fd4d79d08e7c372865f6d3cabfa2471a6b822a1cc1137ef2886a7f9260b08ce549e23835d30bcf5b1340c941932fdc47e30fa31596a2905f78ce62206ffd
+Homepage: https://altstore.io
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Name: AltDaemon
+Author: Riley Testut
 
