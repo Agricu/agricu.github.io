@@ -770,16 +770,16 @@ Sponsor: Agricu <http://agricu.cn>
 
 Package: cn.agricu.videodown
 Architecture: iphoneos-arm
-Version: 1.0
+Version: 1.2
 Section: Tweaks
 Maintainer: Nets
-Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
-Filename: ./debfiles/cn.agricu.videodown_1.0_iphoneos-arm.deb
-Size: 170776
-MD5sum: 063a7b0af72fdc77821df931b04bd6d6
-SHA1: 2c9a6b5ebb4bbba226ced51b0b59ac9aed3d3d8c
-SHA256: d7d04c14db772c9215ab7d456b2ed0ba7bbfde327e16e684ba43b59d358b8dcc
-SHA512: 99b5cb61fa76654e50275ee470aa446268a65d04f564ec88fda37fb0ff08509ffc0a79a0476bc65875fb81664ef811a0237ffb88b8322d22dd277728b6486afa
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.videodown_1.2_iphoneos-arm.deb
+Size: 545078
+MD5sum: f5666fcf8ddd9ace34fbdbb05247cc69
+SHA1: 365b1b96938a461891b40064eb66a90941c56169
+SHA256: bd7fd52ba422b9a8ade86fbc48d8b82c3e002bdb9708e45ea6d33533c0e7e5c7
+SHA512: 0dac4cd6a8c9c1ba72fa3d538a187dca90f907cdbb60a2073b3f4faa9a14cd8dc36cf2be4cdeadaaa8a8e3783d3c9982c69a80a94bc245655cfee0a0ba951e7c
 Description: 下载网址直链视频文件，仅支持MP4视频下载
 Name: 视频下载(自用)
 Depiction: http://repo.agricu.cn/packageInfo/videodownload.html
