@@ -858,18 +858,18 @@ Depiction: http://repo.agricu.cn/packageInfo/WebRefresher.html
 
 Package: cn.agricu.wechatvideo
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: Agricu
-Installed-Size: 276
+Installed-Size: 308
 Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
-Filename: ./debfiles/cn.agricu.wechatvideo_1.1_iphoneos-arm.deb
-Size: 73998
-MD5sum: beed33259dae35bcce9b6b18dd71ec2c
-SHA1: 141aad41861b2c352c073c52a6e5036265c743d9
-SHA256: c05fb9c88422c713fa9f6caa79ce235e97548135815c5336df29896905314c8b
-SHA512: bcb9ccd1f7f67264c7bcd1246d87d60dafe77c048284d2f858e326786c759893abc41c1d0091f31e4cbc95cea0bf91e07d886375c82ab0bc80ccc2ed561e894b
-Description: 微信小程序视频下载保存至相册
+Filename: ./debfiles/cn.agricu.wechatvideo_1.2_iphoneos-arm.deb
+Size: 78352
+MD5sum: c2c683d185c9990bb803033d4c3132e3
+SHA1: fb4f351fd1a2b02384768f3477cb6cc3ecd456b6
+SHA256: f42371d465428668412dee63d96c8d10747195cdd4beb18f27a2b7e12788be5d
+SHA512: ea39ca372d121fe4b672bea135cc6aa5da2f3fd422641e57a66049980ccd0516bcd4bb161e462cd4316cd850de04c5c16918424087a4ed8385b67c62a2351b1c
+Description: 微信小程序视频、视频号视频下载保存至相册
 Name: WeChat™助手
 Author: Agricu
 Depiction: http://repo.agricu.cn/packageInfo/WeChatVideo.html
