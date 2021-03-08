@@ -463,6 +463,24 @@ Name: 照片™助手/Photo Assistant
 Depiction: https://repo.agricu.cn/packageInfo/mobileslideshow.html
 Author: Agricu
 
+Package: cn.agricu.netease
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), cn.agricu.downloadvideo
+Filename: ./debfiles/cn.agricu.netease_1.0_iphoneos-arm.deb
+Size: 66466
+MD5sum: 5360c6bad26228464389e7f61c37df53
+SHA1: b7651ad0d9d0bb93e4530584602effffc1185212
+SHA256: 29ca030771cd0909e597a17b5eed1aadba0381de9dd1db817fadee73eac6cade
+SHA512: c7859563a57f550f257be9622d7d092761f0aa0ad9f1772ab8f790f8494defe56ff0eba8e5cf5de43b6c5b0b3312e3af2fc0a153f01b495dbe8178a2c05281e4
+Description: 云村视频界面长按呼出下载界面
+Name: 网易云音乐™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/packageInfo/netease.html
+
 Package: cn.agricu.newterm2
 Architecture: iphoneos-arm
 Version: 2.4
